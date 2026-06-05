@@ -1,0 +1,21 @@
+# Environment — never commit real secrets
+.env
+.env.local
+.env.production
+
+# Build output
+bin/
+dist/
+tmp/
+app
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
